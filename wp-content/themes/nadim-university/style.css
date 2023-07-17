@@ -20,3 +20,7 @@ language: /languages
   2. style.css
   and the image file which name is screenshot.png and the size is 1200*900px 
  */
+
+body {
+  color: green;
+}
