@@ -1,0 +1,22 @@
+/* create all the wp theme mata data here
+Theme Name: Nadim University
+Theme URI: https://www.nadimuniversity.com
+Author: Nadim University
+Author URI: https://www.nadimuniversity.com
+Description: Nadim University is a multipurpose WordPress theme that can be use for any type of website like: business, corporate, portfolio, blog, etc.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nadim-university
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+last updated: 2020-05-20
+language: en_US
+language: /languages 
+ */
+
+/* 
+ to create a theme we need just 2 things
+ 1. index.php
+  2. style.css
+  and the image file which name is screenshot.png and the size is 1200*900px 
+ */
