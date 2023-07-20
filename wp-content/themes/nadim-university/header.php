@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> it's hard coded value for langaue. Now if we change the language in my wp admin dashboard here langauge value will not be change. But if we use a wp fn then it will change the value when we change the value in the admin dashboard -->
+<html <?php language_attributes() ?>>
+  
 <head>
+  <meta name="charset" content="<?php bloginfo('charset') ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this tag enable the responsive code to the our web page if we have responsive css code inside the css file. but if we dont have any responsive code this will will dont do anything -->
   <?php wp_head(); ?> <!-- this function pull out the all of the content related to the heaer --> 
 </head>
-<body>
+<body <?php body_class() ?>>
 
 <header class="site-header">
       <div class="container">
